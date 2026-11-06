@@ -44,3 +44,4 @@ pnpm-debug.log*
 tripnest-backend/uploads/documents/*
 !tripnest-backend/uploads/documents/.gitkeep
 !tripnest-backend/uploads/documents/*SAMPLE*
+
