@@ -1,0 +1,30 @@
+.destination-card {
+    border: none;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+    transition: 0.3s;
+}
+
+.destination-card:hover {
+    transform: translateY(-10px);
+}
+
+.destination-card img {
+    height: 220px;
+    object-fit: cover;
+}
+
+.destination-card h4 {
+    color: #007bff;
+    margin-top: 10px;
+}
+
+.destination-card p {
+    color: #555;
+    min-height: 70px;
+}
+
+.destination-card button {
+    width: 100%;
+}

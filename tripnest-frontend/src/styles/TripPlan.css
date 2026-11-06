@@ -1,0 +1,26 @@
+.bg-gradient-primary {
+    background: linear-gradient(135deg, #0f172a 0%, #0284c7 100%);
+}
+
+.trip-banner-card {
+    background: linear-gradient(135deg, #0f172a 0%, #1e293b 50%, #0369a1 100%);
+}
+
+.max-w-500 {
+    max-width: 500px;
+}
+
+.max-w-600 {
+    max-width: 600px;
+}
+
+.timeline-item {
+    background: #ffffff !important;
+    border-left: 4px solid #0284c7 !important;
+    box-shadow: 0 4px 12px rgba(15, 23, 42, 0.05);
+    transition: all 0.2s ease;
+}
+
+.timeline-item:hover {
+    transform: translateX(4px);
+}

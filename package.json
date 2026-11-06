@@ -1,0 +1,11 @@
+{
+  "name": "tripnest-root",
+  "version": "1.0.0",
+  "description": "TripNest Travel Platform",
+  "scripts": {
+    "start": "start cmd /k \"cd /d tripnest-backend && mvnw.cmd spring-boot:run\" && cd tripnest-frontend && npm run dev",
+    "backend": "cd tripnest-backend && mvnw.cmd spring-boot:run",
+    "frontend": "cd tripnest-frontend && npm run dev",
+    "build": "cd tripnest-frontend && npm run build && cd ../tripnest-backend && mvnw.cmd clean package -DskipTests"
+  }
+}

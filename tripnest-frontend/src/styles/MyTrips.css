@@ -1,0 +1,128 @@
+.page-heading {
+    font-size: 2.2rem;
+    font-weight: 800;
+    color: #0f172a;
+    letter-spacing: -0.5px;
+}
+
+.page-subheading {
+    color: #64748b;
+    font-size: 1.05rem;
+}
+
+.search-input {
+    min-width: 280px;
+    border-radius: 12px;
+    border: 1px solid #cbd5e1;
+    padding: 0.6rem 1rem;
+    font-size: 0.95rem;
+}
+
+.btn-create-trip {
+    background: linear-gradient(135deg, #0284c7 0%, #2563eb 100%);
+    color: #ffffff !important;
+    font-weight: 600;
+    border-radius: 12px;
+    padding: 0.6rem 1.4rem;
+    border: none;
+    box-shadow: 0 4px 14px rgba(37, 99, 235, 0.25);
+    transition: all 0.2s ease;
+}
+
+.btn-create-trip:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 18px rgba(37, 99, 235, 0.35);
+}
+
+.trip-card-wrapper {
+    background: #ffffff;
+    border-radius: 20px;
+    padding: 1.5rem;
+    border: 1px solid #e2e8f0;
+    box-shadow: 0 10px 25px -5px rgba(15, 23, 42, 0.05);
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.trip-card-wrapper:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 20px 35px -10px rgba(15, 23, 42, 0.12);
+    border-color: #cbd5e1;
+}
+
+.status-pill {
+    display: inline-block;
+    padding: 0.35rem 0.85rem;
+    border-radius: 50px;
+    font-size: 0.8rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.status-upcoming {
+    background: #e0f2fe;
+    color: #0369a1;
+}
+
+.status-ongoing {
+    background: #dcfce7;
+    color: #15803d;
+}
+
+.status-completed {
+    background: #f1f5f9;
+    color: #475569;
+}
+
+.trip-destination-title {
+    font-size: 1.4rem;
+    font-weight: 800;
+    color: #0f172a;
+}
+
+.info-row {
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.95rem;
+    margin-bottom: 0.4rem;
+    color: #475569;
+}
+
+.btn-icon-delete {
+    background: #fee2e2;
+    border: none;
+    border-radius: 50%;
+    width: 36px;
+    height: 36px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.btn-icon-delete:hover {
+    background: #fca5a5;
+    transform: scale(1.1);
+}
+
+.custom-progress {
+    height: 10px;
+    border-radius: 10px;
+    background-color: #e2e8f0;
+}
+
+.empty-trips-card {
+    background: #ffffff;
+    border-radius: 24px;
+    border: 2px dashed #cbd5e1;
+    padding: 4rem 2rem;
+}
+
+.empty-icon {
+    font-size: 4rem;
+}

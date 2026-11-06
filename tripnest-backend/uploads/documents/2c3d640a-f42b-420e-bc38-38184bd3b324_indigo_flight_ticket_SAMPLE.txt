@@ -1,0 +1,12 @@
+*** SAMPLE TEST DOCUMENT - NOT A REAL TICKET ***
+IndiGo Airlines - Flight Boarding Pass
+Booking Ref: ABC123
+Flight No: 6E 204
+From: Chennai (MAA)
+To: Goa (GOI)
+Date: 2026-12-05
+Departure: 08:40 AM
+Arrival: 10:05 AM
+Passenger: Test User
+Seat: 14A
+Total Amount: 5400

@@ -1,0 +1,96 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f4f4f4;
+}
+
+nav {
+    background: #0d6efd;
+    color: white;
+    padding: 15px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    gap: 25px;
+}
+
+nav ul li {
+    cursor: pointer;
+    font-weight: bold;
+}
+
+nav ul li:hover {
+    color: yellow;
+}
+
+.hero {
+    text-align: center;
+    padding: 80px;
+}
+
+.hero h1 {
+    font-size: 40px;
+    color: #0d6efd;
+}
+
+.hero p {
+    font-size: 20px;
+}
+
+.hero button {
+    padding: 12px 25px;
+    background: #0d6efd;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.hero button:hover {
+    background: #084298;
+}
+
+footer {
+    text-align: center;
+    background: #0d6efd;
+    color: white;
+    padding: 15px;
+    margin-top: 50px;
+}
+.destinations {
+    text-align: center;
+    padding: 40px;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.card {
+    background: white;
+    width: 250px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px gray;
+}
+
+.card button {
+    background: #0d6efd;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.card button:hover {
+    background: #084298;
+}
